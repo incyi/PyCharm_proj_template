@@ -1,5 +1,5 @@
 import app
 
 
-def test_says_world():
-    assert app.say_what() == 'Hello (virtual) World! =)'
+def test_hello_world():
+    assert app.hello_world() == 'Hello (virtual) World! =)'

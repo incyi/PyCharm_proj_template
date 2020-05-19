@@ -2,16 +2,18 @@ from __future__ import print_function
 import sys
 
 
-def hello_world(what):
-    print('Hello, {}!'.format(what))
-
-
-def say_what():
+def hello_world():
     return 'Hello (virtual) World! =)'
 
 
+def version():
+    version_text = "Running app with Python :", sys.version + " and api_version", sys.api_version
+    return version_text
+
+
 def main():
-    hello_world(say_what())
+    print(hello_world())
+    print(version())
     return 0
 
 
