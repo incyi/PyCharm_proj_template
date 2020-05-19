@@ -2,7 +2,7 @@ from __future__ import print_function
 import sys
 
 
-def hello(what):
+def hello_world(what):
     print('Hello, {}!'.format(what))
 
 
@@ -11,7 +11,7 @@ def say_what():
 
 
 def main():
-    hello(say_what())
+    hello_world(say_what())
     return 0
 
 
