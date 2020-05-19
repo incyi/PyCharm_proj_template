@@ -2,7 +2,8 @@ from __future__ import print_function
 import sys
 
 def hello_world():
-    print("Hello (virtual) World! =)")
+    #print("Hello (virtual) World! =)")
+    print("Hello")
 
 def version():
     print("Running app with Python :", sys.version + " and api_version", sys.api_version)
