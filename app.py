@@ -1,3 +1,7 @@
+##
+#  Bismillah ar-Rahmaan ar-Raheem
+##
+
 from __future__ import print_function
 import sys
 
